@@ -15,7 +15,7 @@ void PrintArray(int[] array)
             Console.Write(", ");
         }
     }
-        Console.Write("]");
+    Console.Write("]");
 }
 
 int[] array = new int[8];

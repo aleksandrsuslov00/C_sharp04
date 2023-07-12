@@ -10,7 +10,7 @@ int GetSumOfSeries (int from, int to)
     int result = 0;
     for (int i = from; i <= to; i++) 
     {
-        result += i; //result = result + i  
+        result += i; //result = result + i , result++ 
     }
     return result;
 }

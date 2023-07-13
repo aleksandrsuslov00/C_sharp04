@@ -36,9 +36,10 @@ int FillNumberArray (int[] randomArray, int start, int end)
     int count = 0;
     for (int i = 0; i < randomArray.Length; i++)
     {
-        if (randomArray[i] >= start && randomArray[i] <= end)
+        if (randomArray[i] >= start && randomArray[i] <= end) 
+        // if ((randomArray[i]>9) && (randomArray[i]<100))
         {
-            count = count + 1;
+            count = count + 1; // count++;
         }
     }
     return count;
